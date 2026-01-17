@@ -1,5 +1,5 @@
 """
-Tunisian Heritage Data Collection Script - IMPROVED VERSION
+Tunisian Heritage Data Collection Script -- IMPROVED VERSION
 ============================================================
 This script downloads and processes Tunisian heritage texts from open sources.
 

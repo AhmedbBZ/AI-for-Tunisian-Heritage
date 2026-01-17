@@ -6,20 +6,35 @@ A production-ready Retrieval-Augmented Generation (RAG) system for question-answ
 ## 🏗️ Project Structure
 
 ```
-
-├── config/                # Configuration files
-├── src/                   # Source code (data, embeddings, retrieval, LLM, pipeline, utils)
-├── scripts/               # Utility scripts (build, query, fine-tune, diagnose)
-├── tests/                 # Unit tests
-├── data/                  # Raw and processed data
-├── models/                # Fine-tuned models
-├── vector_db/             # ChromaDB persistent storage
-├── logs/                  # Log files
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+├── README.md              # Project documentation
+├── scrapper.py            # Web scraper for data collection
+├── Ai_Promptes_Caps/      # AI prompt capts
+├── Architecture/          # Architecture documentation
+├── tunisian_heritage_data/        # Heritage datasets
+│   ├── dataset_index.json
+│   ├── metadata/          # Metadata JSON files
+│   ├── pdfs/              # PDF documents
+│   ├── raw_html/          # Raw HTML files
+│   └── texts/             # Text documents
+├── tunisian_rag_pipeline/ # Main RAG pipeline
+│   ├── chat.py            # Interactive chat interface
+│   ├── requirements.txt    # Python dependencies
+│   ├── test_retrieval.py   # Retrieval tests
+│   ├── config/            # Configuration files
+│   ├── scripts/           # Utility scripts (build, query, fine-tune, diagnose)
+│   ├── src/               # Source code
+│   │   ├── data/          # Data processing (chunking, ingestion, preprocessing)
+│   │   ├── embeddings/    # Embedding models
+│   │   ├── llm/           # LLM generation and prompts
+│   │   ├── pipeline/      # RAG pipeline and intent detection
+│   │   ├── retrieval/     # Vector store and retriever
+│   │   └── utils/         # Helper utilities
+│   ├── tests/             # Unit tests
+│   └── vector_db/         # ChromaDB persistent storage
+└── vector_db/             # Alternative vector database location
 ```
 
-## 🚀 Quick Start
+## 🚀 Quick Start(first u shood download an LLM Localy )
 
 ### 1. Install Dependencies
 ```bash
