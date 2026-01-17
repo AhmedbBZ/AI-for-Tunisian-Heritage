@@ -1,0 +1,12 @@
+{
+  "build_time": "2026-01-17T03:15:09.336340",
+  "data_directory": "D:\\Ahmed\\tunisian_heritage_data",
+  "num_documents": 27,
+  "num_chunks": 549,
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "chunk_strategy": "paragraph",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "collection_name": "tunisian_heritage",
+  "total_build_time_seconds": 56.40273594856262
+}
